@@ -1,0 +1,12 @@
+# Patient data never goes online (run.sh recreates the demo patient)
+data/
+
+.venv/
+__pycache__/
+.DS_Store
+
+# Local tools and checks
+.claude/
+.claude-flow/
+.dev/
+.playwright-mcp/

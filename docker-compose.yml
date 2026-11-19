@@ -1,0 +1,7 @@
+services:
+  epiatlas:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"   # this computer only; patient data must not be exposed on the network
+    volumes:
+      - ./data:/data            # data/raw/<patient>/ is read in place, results go to data/derived/
